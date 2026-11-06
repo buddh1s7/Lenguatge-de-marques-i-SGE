@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiPrimeraPaginaWeb</title>
+    <link rel="icon" href="/img/claqueta.png" type="image/png">
 </head>
 <body>
     <header>
@@ -21,12 +22,15 @@
     <main>
 
         <section>
+            <form method="GET" action="https://www.themoviedb.org/search">
         <div>
             <h1>BUSCAR una película</h1>
             <p>Milions de títols, un sol cercador</p>
-            <input type="text" placeholder="Cerca una pel·lícula...">
+            <label for="query">Cerca una pel·lícula:</label>
+            <input type="search" name="query" id="query" placeholder="Cerca una pel·lícula..." required>
             <button>Cercar</button>
         </div>
+            </form>
         </section>
 
         <section>
@@ -37,12 +41,12 @@
                     <p>2024</p>
                 </article>
                 <article>
-                    <img src="/img/The lord.jpg" alt="The Lord of the Rings: The Two Towers" width="200" height="300">
+                    <img src="/img/Thelord.jpg" alt="The Lord of the Rings: The Two Towers" width="200" height="300">
                     <h3>The Lord of the Rings: The Two Towers</h3>
                     <p>2002</p>
                 </article>
                 <article>
-                    <img src="/img/Spiderman.jpg" alt="Spider-Man: Brand New Day" width="200" height="300   ">
+                    <img src="/img/Spiderman.jpg" alt="Spider-Man: Brand New Day" width="200" height="300">
                     <h3>Spider-Man: Brand New Day</h3>
                     <p>2026</p>
 
